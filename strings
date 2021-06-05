@@ -1,0 +1,28 @@
+package com.company;
+public class Main{
+
+    public static void main(String args[])
+    {
+        int i = 67890;
+        String str1 = "mudavath ";
+        String str2 = "venkatesh";
+        String str3 = "Welcome to jala technologies";
+        String str4 = "  Hi hello welcome to programming    ";
+        System.out.println(str1+str2);
+        System.out.println(str1.length());
+        System.out.println(str1.substring(2, 5));
+        System.out.println(str1.indexOf("v"));
+        System.out.println(str3.matches("jala"));
+        System.out.println("Bright".equals("Bright"));
+        System.out.println("Bright".equalsIgnoreCase("bright"));
+        System.out.println("Does string start with wel: " + str3.startsWith("Wel"));
+        System.out.println("Does string end with ies: " + str3.endsWith("ies"));
+        System.out.println(str4.trim());
+        System.out.println("aechnologies".replace('a' ,'t'));
+        System.out.println(str3.split("a",2));
+        String str = String.valueOf(i);
+        System.out.println(str);
+        System.out.println(Integer.toString(i));
+        System.out.println(str3.toLowerCase());
+    }
+}
